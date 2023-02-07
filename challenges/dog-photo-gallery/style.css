@@ -8,7 +8,7 @@ img {
     border: 3px solid red;
     border-radius: 5px;
 }
-.btn, .rbtn {
+.addBtn, .removeBtn {
     width: 100px;
     height: 50px;
     border: 2px solid red;
@@ -16,4 +16,7 @@ img {
     display: flex;
     flex-direction: column;
     margin-top: 20px;
+}
+ul {
+list-style: none;
 }
