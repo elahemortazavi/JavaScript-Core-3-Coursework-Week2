@@ -1,4 +1,15 @@
 img {
-    width: 200px;
-    height: 200px;
+    width: 900px;
+    height: 400px;
+    border: 2px solid rgb(196, 7, 7);
+    border-radius: 10px;
+}
+ul {
+ list-style: none;   
+}
+#btn {
+    color: rgb(160, 21, 21);
+}
+h1 {
+    color: rgb(160, 9, 9);
 }
