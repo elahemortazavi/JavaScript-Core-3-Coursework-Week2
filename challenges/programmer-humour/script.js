@@ -12,15 +12,17 @@
 
 
 
-  let mainDiv = document.getElementById("container");
-  let image = document.createElement("img");
+//   let mainDiv = document.getElementById("container");
+//   let image = document.createElement("img");
 //   mainDiv.appendChild(image);
 
    function fetchData(){
     fetch("https://xkcd.now.sh/?comic=latest")
     .then((response) => response.json())
     .then((data) => {
-        image.src = data.message;
+        let mainDiv = document.getElementById("container");
+        let image = document.createElement("img");
+        image.src = data.img;
         mainDiv.appendChild(image);
 
     })
