@@ -9,6 +9,10 @@ ul {
 }
 #btn {
     color: rgb(160, 21, 21);
+    width: 60px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid red;
 }
 h1 {
     color: rgb(160, 9, 9);
