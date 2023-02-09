@@ -13,6 +13,8 @@ ul {
     height: 50px;
     border-radius: 5px;
     border: 1px solid red;
+    margin-left: 110px;
+    font-weight: bold;
 }
 h1 {
     color: rgb(160, 9, 9);
